@@ -38,3 +38,7 @@ EXPOSE 8080
 
 # Start JupyterLab
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8080", "--no-browser", "--allow-root"]
+
+
+#cd kafka-basic
+#docker compose up 
