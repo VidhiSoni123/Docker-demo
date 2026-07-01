@@ -37,8 +37,8 @@ jobs:
       - name: Upload Notebook
         run: |
           databricks workspace import \
-          spark-demo/advance-spark.ipynb \
-          /Shared/advance-spark \
+          spark-demo/Advanced-spark.ipynb \
+          /Shared/Advanced-spark \
           --language PYTHON \
           --format JUPYTER \
           --overwrite
